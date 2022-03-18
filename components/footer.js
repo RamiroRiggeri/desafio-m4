@@ -2,7 +2,7 @@ function footerEl(el) {
   const componentEl = document.createElement("footer");
   componentEl.innerHTML = `<footer>
   <div class="footer__container">
-    <img src="./img/logo.png" class="footer__logo" />
+  <a href="https://ramiroriggeri.github.io/desafio-m4/"><img src="./img/logo.png" class="footer__logo" /></a>
     <ul class="footer__social-media">
       <li>
         <a href="https://www.instagram.com/ramarig/">
