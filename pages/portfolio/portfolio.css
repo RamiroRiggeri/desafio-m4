@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+}
+@media (min-width: 960px) {
+  body {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(
+      34deg,
+      rgba(255, 0, 0, 1) 0%,
+      rgba(0, 28, 125, 1) 100%
+    );
+  }
+}
+.header {
+  background-color: transparent;
+}
+.services {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 960px) {
+  .services__title-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 100px;
+    height: 500px;
+  }
+  .services__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 30px;
+  }
+}
+
+.services__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  margin: 50px 0 80px 0;
+}
+
+.services__item-card {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  .services__item-card {
+    margin-top: 80px;
+  }
+}
+
+.services__item-card-img {
+  object-fit: cover;
+  height: 250px;
+  width: 300px;
+}
+
+.services__item-card-text {
+  width: 95%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.services__item-card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.services__item-card-description {
+  width: 90%;
+  margin: 10px 0 0 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+
+.portfolio-card-link {
+  margin-top: 10px;
+  color: #fc6f50;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 0.8em;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Ramarig</title>
+    <script defer src="./components/header.js"></script>
+    <script defer src="./components/footer.js"></script>
+    <script defer src="./pages/portfolio/portfolio.js"></script>
+
+    <link rel="stylesheet" href="./pages/portfolio/portfolio.css" />
+    <link rel="stylesheet" href="./components/header.css" />
+    <link rel="stylesheet" href="./components/footer.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header"></header>
+    <div class="services__title-container">
+      <h2 class="services__title">Portfolio</h2>
+    </div>
+    <section class="services">
+      <div class="services__content"></div>
+      <template id="services__template">
+        <div class="services__item-card">
+          <img
+            src="https://www.indiewire.com/wp-content/uploads/2013/11/homer.jpg"
+            alt=""
+            class="services__item-card-img"
+          />
+          <div class="services__item-card-text">
+            <h4 class="services__item-card-title">Un trabajo que hice</h4>
+            <p class="services__item-card-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              placeat commodi soluta porro natus ipsa aspernatur
+            </p>
+            <a href="#" class="portfolio-card-link"></a>
+          </div>
+        </div>
+      </template>
+    </section>
+    <section class="footer"></section>
+  </body>
+</html>

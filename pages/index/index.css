@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.welcome {
+  background-image: url("https://ramiroriggeri.github.io/dwf-m4-desafio/img/image-4.png");
+  background-color: #cccccc;
+  height: 616px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome__content {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.welcome__title,
+.welcome__subtitle,
+.about-me__subtitle,
+.form__title,
+.services__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome__subtitle {
+  font-size: 32px;
+}
+
+.about-me {
+  width: 100%;
+  background-color: #141414;
+  height: 475px;
+}
+
+.about-me__picture {
+  display: none;
+}
+
+.about-me__subtitle {
+  margin-top: 55px;
+}
+.about-me__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  gap: 40px;
+}
+
+.about-me__description {
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+
+@media (min-width: 960px) {
+  .about-me {
+    background-color: #ffffff;
+  }
+
+  .about-me__content {
+    padding-top: 40px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+  .about-me__picture {
+    display: initial;
+    height: 350px;
+    width: 350px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin: 0 auto;
+  }
+
+  .about-me__text {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    width: 600px;
+  }
+  .about-me__subtitle {
+    color: black;
+    font-size: 32px;
+    text-align: left;
+  }
+  .about-me__description {
+    width: 95%;
+    color: black;
+  }
+}
+
+.services {
+  background-color: #cccccc;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.services__title {
+  color: black;
+  margin: 60px auto 45px auto;
+}
+
+.services__item-card {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services__item-card-img {
+  object-fit: contain;
+  height: 138px;
+  width: 138px;
+}
+
+.services__item-card-text {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.services__item-card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.services__item-card-description {
+  width: 90%;
+  margin: 10px 0 0 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+
+@media (min-width: 960px) {
+  .services__content {
+    display: flex;
+    flex-direction: row;
+  }
+}

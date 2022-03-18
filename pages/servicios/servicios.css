@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+@media (min-width: 960px) {
+  body {
+    background: rgb(0, 171, 40);
+    background: linear-gradient(
+      261deg,
+      rgba(0, 171, 40, 1) 0%,
+      rgba(78, 0, 87, 1) 100%
+    );
+  }
+}
+
+.header {
+  background-color: rgb(70, 70, 70);
+}
+.services {
+  background-color: rgb(70, 70, 70);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 960px) {
+  .services {
+    background-color: black;
+  }
+
+  .header {
+    background-color: transparent;
+  }
+
+  .services__title-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 100px;
+    height: 500px;
+  }
+  .services__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 30px;
+  }
+}
+.services__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0;
+  color: white;
+  background-color: rgb(70, 70, 70);
+  padding: 50px 0 80px 0;
+}
+@media (min-width: 960px) {
+  .services__title {
+    background-color: transparent;
+  }
+}
+
+.services__item-card {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 960px) {
+  .services__item-card {
+    margin-top: 80px;
+  }
+}
+
+.services__item-card-img {
+  object-fit: contain;
+  height: 138px;
+  width: 138px;
+}
+
+.services__item-card-text {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.services__item-card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.services__item-card-description {
+  width: 90%;
+  margin: 10px 0 0 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
