@@ -38,5 +38,6 @@ function catchData(form) {
       message: objData.mensaje,
     };
     sendData(postData);
+    window.alert("¡Formulario Enviado!");
   });
 }

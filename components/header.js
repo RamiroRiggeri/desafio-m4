@@ -1,7 +1,7 @@
 function headerEl(el) {
   const componentEl = document.createElement("header");
   componentEl.innerHTML = `<nav class="header__navbar">
-        <img src="./img/logo.png" class="header__logo" />
+  <a href="https://ramiroriggeri.github.io/dwf-m4-desafio/"><img src="./img/logo.png" class="header__logo" /></a>
         <div class="header__burger-menu">
           <span class="header__burger-bar"></span>
           <span class="header__burger-bar"></span>
