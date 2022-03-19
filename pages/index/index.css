@@ -99,7 +99,7 @@ body {
     flex-direction: column;
     grid-column-start: 2;
     grid-column-end: 2;
-    width: 600px;
+    width: 100%;
   }
   .about-me__subtitle {
     color: black;
@@ -107,7 +107,6 @@ body {
     text-align: left;
   }
   .about-me__description {
-    width: 80%;
     color: black;
   }
 }
