@@ -36,9 +36,11 @@ body {
     height: 500px;
   }
   .services__content {
+    width: 100%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 30px;
+    gap: 15px;
   }
 }
 
@@ -53,7 +55,6 @@ body {
 }
 
 .services__item-card {
-  margin: 10px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -69,8 +70,8 @@ body {
 
 .services__item-card-img {
   object-fit: cover;
-  height: 250px;
-  width: 300px;
+  height: 220px;
+  width: 250px;
 }
 
 .services__item-card-text {
